@@ -1,0 +1,6 @@
+{
+  "name": "NEMS Prices - Energy Market Company",
+  "description": "Real-time and historical wholesale electricity market prices, demand, solar generation, and data downloads for the National Electricity Market of Singapore (NEMS).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

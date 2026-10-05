@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1e293b;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.hero-banner {
+  background-image: linear-gradient(180deg, rgba(16, 37, 66, 0.45) 0%, rgba(16, 37, 66, 0.72) 100%), url(https://lh3.googleusercontent.com/aida-public/AB6AXuDAQeo6uQe3OrOzEY6YUt6o1Nuu0sUjO7GsUJPZ4g-r37NombSO63HoiEmsvTbdqxfsV_Y1rSPz_mE7ZEK5G3hTOQB0ViRULK56YYrdXBelC_heK3us8SLS60oL8BY1yaDECqEWSM54hbVRcnx_Bp4tMwedG7Q9YoLXak0kYh5OluaVDFX4v8hRmH9rdunowd521sYs7OEohzsuCuSoSHDa7kNIA2JJN2LRmKWID8UkPyKrsZsP3cxV);
+  background-size: cover;
+  background-position: center 38%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.6;
+}
